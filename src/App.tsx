@@ -3,6 +3,7 @@ import { ethers } from 'ethers';
 import truncateAddress from './utils/truncateAddress';
 import logo from './logo.svg';
 import InstallMetaMask from './components/InstallMetaMask';
+import ChangeNetwork from './components/ChangeNetwork';
 import './App.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <div className="App">
+      <ChangeNetwork name="Polygon"  chainId={137}/>
       <header className="App-header">
         {window.ethereum ? (
           <>
