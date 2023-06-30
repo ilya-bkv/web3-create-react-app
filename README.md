@@ -2,6 +2,12 @@
 
 Web3 starter-pack based on [Create React App](https://github.com/facebook/create-react-app).
 
+- connnetc to metamask
+- detect network change
+
+[Live demo](https://ilya-bkv.github.io/web3-create-react-app/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
